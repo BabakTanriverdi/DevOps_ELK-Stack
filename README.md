@@ -1,86 +1,11 @@
+
+
+<p align="center">
+  <img src="banner.svg" alt="Prometheus & Grafana Monitoring Banner"/>
+</p> 
+
+
 <div align="center">
-
-<!-- BANNER -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="900" height="220">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0d1117"/>
-      <stop offset="100%" style="stop-color:#161b22"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#00bfa5"/>
-      <stop offset="100%" style="stop-color:#005cf7"/>
-    </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
-
-  <!-- Background -->
-  <rect width="900" height="220" fill="url(#bg)" rx="12"/>
-
-  <!-- Grid lines -->
-  <line x1="0" y1="55" x2="900" y2="55" stroke="#ffffff08" stroke-width="1"/>
-  <line x1="0" y1="110" x2="900" y2="110" stroke="#ffffff08" stroke-width="1"/>
-  <line x1="0" y1="165" x2="900" y2="165" stroke="#ffffff08" stroke-width="1"/>
-  <line x1="225" y1="0" x2="225" y2="220" stroke="#ffffff08" stroke-width="1"/>
-  <line x1="450" y1="0" x2="450" y2="220" stroke="#ffffff08" stroke-width="1"/>
-  <line x1="675" y1="0" x2="675" y2="220" stroke="#ffffff08" stroke-width="1"/>
-
-  <!-- Accent line top -->
-  <rect x="0" y="0" width="900" height="4" fill="url(#accent)" rx="2"/>
-
-  <!-- Decorative circles -->
-  <circle cx="820" cy="170" r="60" fill="#005cf710" stroke="#005cf720" stroke-width="1"/>
-  <circle cx="820" cy="170" r="35" fill="#005cf710" stroke="#005cf730" stroke-width="1"/>
-  <circle cx="80"  cy="50"  r="40" fill="#00bfa510" stroke="#00bfa520" stroke-width="1"/>
-
-  <!-- Node icons (left cluster) -->
-  <!-- E -->
-  <rect x="40" y="88" width="36" height="36" rx="8" fill="#f0532010" stroke="#f05320" stroke-width="1.5"/>
-  <text x="58" y="112" font-family="monospace" font-size="18" font-weight="bold" fill="#f05320" text-anchor="middle" filter="url(#glow)">E</text>
-  <!-- L -->
-  <rect x="86" y="88" width="36" height="36" rx="8" fill="#34aadc10" stroke="#34aadc" stroke-width="1.5"/>
-  <text x="104" y="112" font-family="monospace" font-size="18" font-weight="bold" fill="#34aadc" text-anchor="middle" filter="url(#glow)">L</text>
-  <!-- K -->
-  <rect x="132" y="88" width="36" height="36" rx="8" fill="#6929c410" stroke="#6929c4" stroke-width="1.5"/>
-  <text x="150" y="112" font-family="monospace" font-size="18" font-weight="bold" fill="#6929c4" text-anchor="middle" filter="url(#glow)">K</text>
-  <!-- / -->
-  <text x="188" y="113" font-family="monospace" font-size="22" fill="#ffffff30" text-anchor="middle">/</text>
-  <!-- E -->
-  <rect x="200" y="88" width="36" height="36" rx="8" fill="#f0532010" stroke="#f05320" stroke-width="1.5"/>
-  <text x="218" y="112" font-family="monospace" font-size="18" font-weight="bold" fill="#f05320" text-anchor="middle" filter="url(#glow)">E</text>
-  <!-- F -->
-  <rect x="246" y="88" width="36" height="36" rx="8" fill="#00bfa510" stroke="#00bfa5" stroke-width="1.5"/>
-  <text x="264" y="112" font-family="monospace" font-size="18" font-weight="bold" fill="#00bfa5" text-anchor="middle" filter="url(#glow)">F</text>
-  <!-- K -->
-  <rect x="292" y="88" width="36" height="36" rx="8" fill="#6929c410" stroke="#6929c4" stroke-width="1.5"/>
-  <text x="310" y="112" font-family="monospace" font-size="18" font-weight="bold" fill="#6929c4" text-anchor="middle" filter="url(#glow)">K</text>
-
-  <!-- Title -->
-  <text x="470" y="75" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="1">ELK / EFK Stack</text>
-  <text x="470" y="105" font-family="Arial, sans-serif" font-size="14" fill="#8b949e" text-anchor="middle">Hands-on Deployment Guide</text>
-
-  <!-- Tag pills -->
-  <rect x="358" y="125" width="78" height="22" rx="11" fill="#005cf720" stroke="#005cf750" stroke-width="1"/>
-  <text x="397" y="140" font-family="Arial, sans-serif" font-size="11" fill="#79c0ff" text-anchor="middle">Kubernetes</text>
-
-  <rect x="444" y="125" width="52" height="22" rx="11" fill="#00bfa520" stroke="#00bfa550" stroke-width="1"/>
-  <text x="470" y="140" font-family="Arial, sans-serif" font-size="11" fill="#00bfa5" text-anchor="middle">AWS EKS</text>
-
-  <rect x="504" y="125" width="42" height="22" rx="11" fill="#f0532020" stroke="#f0532050" stroke-width="1"/>
-  <text x="525" y="140" font-family="Arial, sans-serif" font-size="11" fill="#f05320" text-anchor="middle">Helm</text>
-
-  <rect x="554" y="125" width="68" height="22" rx="11" fill="#6929c420" stroke="#6929c450" stroke-width="1"/>
-  <text x="588" y="140" font-family="Arial, sans-serif" font-size="11" fill="#a78bfa" text-anchor="middle">Terraform</text>
-
-  <!-- Bottom line -->
-  <text x="470" y="185" font-family="monospace" font-size="11" fill="#30363d" text-anchor="middle">elasticsearch · logstash · kibana · filebeat · metricbeat · eks · helm · terraform</text>
-
-  <!-- Accent line bottom -->
-  <rect x="0" y="216" width="900" height="4" fill="url(#accent)" rx="2"/>
-</svg>
 
 # ELK / EFK Stack — Hands-on Deployment Guide
 
